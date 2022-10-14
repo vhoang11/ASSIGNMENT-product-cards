@@ -29,16 +29,16 @@ h1 {
 }
 
 img {
-  padding: 20px;
-  width: 200px;
+  margin: 20px;
+  /* width: 200px; */
   height: 300px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
-.card-img-top {
+/* .card-img-top {
   border-radius: 20px;
   overflow: hidden;
-}
+} */
 
 .card-text {
   height: 300px;
@@ -69,4 +69,22 @@ img {
 
 .list-group-item {
   color: #5b5b5b;
+}
+
+.status {
+  display: block;
+  color: darkgoldenrod;
+  margin: 0%;
+  padding-left: 10px;
+}
+
+/* .adopted:hover {
+  background-image: url("adoptedlabel.jpeg");
+  background-size: cover;
+  width: 400px; */
+}
+
+.adopted {
+  display: flex;
+  justify-content: start;
 }
